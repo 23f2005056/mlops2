@@ -9,7 +9,7 @@ from sklearn import metrics
 
 
 
-data = pd.read_csv('data/iris.csv')
+data = pd.read_csv('iris.csv')
 # print(data.head())
 
 train, test = train_test_split(data, test_size = 0.4, stratify = data['species'], random_state = 42)
